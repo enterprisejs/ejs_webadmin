@@ -1,0 +1,32 @@
+{
+  "name": "ejs-webadmin",
+  "description": "Enterprise.js web administration tool.",
+  "version": "0.0.1",
+  "maintainers": [
+    {
+      "name": "Charles Martin",
+      "email": "cjay.martin@gmail.com",
+      "web": ""
+    }
+  ],
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "3.0.5",
+    "appserver": "git://github.com/enterprisejs/appserver.git",
+    "datastore": "git://github.com/enterprisejs/datastore.git",
+    "labyrinth": "git://github.com/enterprisejs/labyrinth.git",
+    "jade": "*"
+  },
+  "devDependencies": {
+    "tap": "*"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git://github.com/enterprisejs/ejs_webadmin.git"
+    }
+  ]
+}
